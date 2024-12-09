@@ -1,0 +1,82 @@
+body{
+    background-color:black;
+    color: #fff;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.134);
+    border: #fff;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: Candara;
+}
+
+
+/* About */
+.about-me p {
+    color:#ffdd00;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+/* Expertise */
+.skills h2{
+    color: #ffdd00;
+}
+.skills li{
+    text-decoration: none;
+}
+dd{
+    padding: 10px;
+    padding-bottom: 15px;
+    font-style: italic;
+}
+dt{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+/* Recent Works */
+.projects h2{
+    color: #ffdd00;
+}
+.projects p{
+    font-style: italic;
+    font-size: larger;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 5px;
+    font-size: large;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color:#ffdd00;
+}
+
+/* Contact */
+.contact h2{
+    color: #ffdd00;
+}
+.contact-img {
+    display: inline-block;
+    padding: 10px;
+}
+.contact-img img{
+    width: 65px;
+    height: 65px;
+}
