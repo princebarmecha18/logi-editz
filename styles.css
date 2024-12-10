@@ -12,7 +12,7 @@ body{
 /* Navbar */
 .nav-bar {
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,1);
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
