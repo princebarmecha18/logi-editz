@@ -9,10 +9,10 @@ body{
 }
 
 
-/* Navbar Styles */
+/* Navbar */
 .nav-bar {
     width: 100%;
-    background-color: #000;
+    background-color: rgba(0,0,0,0.7);
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -75,8 +75,15 @@ body{
 }
 
 
-.container{
-    background: rgba(0, 0, 0,0.6);
+/* About */
+.about-me p {
+    color:#fff200;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.about-me {
+    background-color: rgba(0,0,0,0.4);
     border: #fff;
     border-radius: 16px;
     width: 90%;
@@ -90,17 +97,24 @@ body{
 }
 
 
-/* About */
-.about-me p {
-    color:#fff200;
-    font-size: larger;
-    font-weight: 800;
+/* Expertise */
+
+.skills{
+    background-color: rgba(0,0,0,0.4);
+    border: #fff;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: Candara;
 }
 
-
-/* Expertise */
 .skills h2{
-    color: #ffffff;
+    color:#fff200;
 }
 .skills li{
     text-decoration: none;
@@ -109,15 +123,30 @@ dd{
     padding: 10px;
     padding-bottom: 15px;
     font-style: italic;
+    font-weight: 600;
 }
 dt{
     font-size: larger;
-    font-weight: bolder;
+    font-weight:bolder;
     color: #fff200;
 }
 
 
 /* Recent Works */
+
+.projects{
+    background-color: rgba(0,0,0,0.4);
+    border: #fff;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: Candara;
+}
 .projects h2{
     color: #ffdd00;
 }
@@ -163,6 +192,20 @@ a:hover{
 
 
 /* Contact */
+
+.contact{
+    background-color: rgba(0,0,0,0.4);
+    border: #fff;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: Candara;
+}
 .contact h2{
     color: #ffdd00;
 }
